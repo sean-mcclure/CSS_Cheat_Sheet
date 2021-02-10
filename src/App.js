@@ -1,5 +1,7 @@
 import "./App.css";
 
+import CodeBlock from "./CodeBlock";
+
 
 function App() {
     return(
@@ -8,7 +10,8 @@ function App() {
         <h3 className="subtitle">Based Off <a href="https://twitter.com/Prathkum" target="_blank">@Prathkum</a> Cheat Sheets</h3>
         <div className="wrapper">
             <div className="item">
-                description...
+                <CodeBlock/>
+                <div className="hold_run_button"><button>RUN</button></div>
             </div>
             <div className="item">
                 <div id="flex_1_container">
