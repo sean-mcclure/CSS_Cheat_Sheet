@@ -1,0 +1,40 @@
+html, body {
+    background: whitemsoke;
+}
+
+.title {
+    text-align: center;
+}
+
+.subtitle {
+    text-align: center;
+    color: grey;
+    margin-top: -20px;
+}
+
+.wrapper {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-auto-rows: minmax(min-content, max-content);
+    grid-template-columns: 20% 80%;
+    grid-gap: 10px;
+}
+
+.item {
+    background: pink !important;
+}
+
+#flex_1_container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.flex_1_container_item {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    background: grey;
+}
