@@ -7,7 +7,7 @@ function App() {
     return(
         <>
         <h1 className="title">FLEX CHEAT SHEET</h1>
-        <h3 className="subtitle">Based Off <a href="https://twitter.com/Prathkum" target="_blank">@Prathkum</a> Cheat Sheets</h3>
+        <h3 className="subtitle">subtitle</h3>
         <div className="wrapper">
             <div className="item">
                 <CodeBlock/>
