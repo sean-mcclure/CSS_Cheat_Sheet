@@ -29,8 +29,12 @@ html, body {
     padding: 10px;
 }
 
-.hold_run_button {
+.hold_run_button  {
     text-align: center;
+}
+
+.run_button {
+   background: #d1ccc0 !important;
 }
 
 button {
@@ -43,6 +47,17 @@ button {
     cursor: pointer;
     outline: 0;
     margin-bottom: 5px;
+}
+
+.hold_buttons_wrapper {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+.html_css {
+    width: 40% !important;
 }
 
 /* FLEX 1 */

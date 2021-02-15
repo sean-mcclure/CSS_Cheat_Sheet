@@ -10,8 +10,12 @@ function App() {
         <h3 className="subtitle">subtitle</h3>
         <div className="wrapper">
             <div className="item">
+                <div className="hold_buttons_wrapper">
+                    <button className="html_css">HTML</button>
+                    <button className="html_css">CSS</button>
+                </div>
                 <CodeBlock/>
-                <div className="hold_run_button"><button>RUN</button></div>
+                <div className="hold_run_button"><button className="run_button">RUN</button></div>
             </div>
             <div className="item">
                 <div id="flex_1_container">
